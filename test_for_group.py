@@ -30,5 +30,6 @@ def group_text(msg):
             print ('okay',T1)
             itchat.send(T1,to_group)
 
+
 itchat.auto_login(hotReload=True)
 itchat.run()
