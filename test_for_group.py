@@ -26,7 +26,7 @@ def group_text(msg):
     T1=msg.text
     if msg['FromUserName'] == from_group:
         ##if msg['ActualUserName'] == from_user:
-        if T1.find('key_word')!=-1:
+        if T1.find(key_word)!=-1:
             print ('okay',T1)
             itchat.send(T1,to_group)
 
